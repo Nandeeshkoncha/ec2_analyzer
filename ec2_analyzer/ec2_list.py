@@ -16,8 +16,7 @@ def filter_instances(project):
 
 @click.group()
 def instances():
-    """Commands for instances"""
-
+    "List of commands"
 @instances.command('list')
 @click.option('--project',default=None,
     help="only instance for project(tag Project:<name>)")
